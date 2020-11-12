@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "target": "es2018",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "sourceMap": true,
+    "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "@src/*": ["./src/*"]
+    } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+  },
+  "exclude": ["node_modules"]
+}
